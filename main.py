@@ -14,7 +14,7 @@ class sudoku:
             if choice == "yes":
                 break
 
-    def build_sudoku(self):
+    def build_sudoku(self): #sudokumainclass
         choice_pseudo = input("Press 'x' Build sudoku or 'y' for a random pre-defined sudoku: ")
         if choice_pseudo == "x":
             pred_list = []
